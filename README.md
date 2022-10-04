@@ -1,7 +1,9 @@
 # docker-tests
 tests in order to get familiar with docker, Dockerfile and docker compose yaml
 
-## to run the repos download docker
+## to run the repos: 
+1. ### download docker
+2. ### clonse the repo
 ## navigate to the base folder
 ```
 docker-compose -f .\docker-compose-test.yaml up
