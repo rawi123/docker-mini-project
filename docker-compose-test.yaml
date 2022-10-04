@@ -1,0 +1,16 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+  api-test:
+    build:
+      context: ./
+    ports:
+      - 3000:3000
+    command: node ./home/app/server.js
+    depends_on:
+      - mongodb
+    links:
+      - mongodb
