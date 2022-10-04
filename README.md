@@ -1,5 +1,5 @@
 # docker-tests
-personal tests in order to get abroad with docker
+tests in order to get familiar with docker, Dockerfile and docker compose yaml
 
 ## to run the repos download docker
 ## navigate to the base folder
