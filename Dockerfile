@@ -1,6 +1,8 @@
 #basing our node images on our node (install node)
 FROM node:16-alpine
 
+
+#its possible to add env variables to the docker file as part of the image, altough its not used in this project anywhere
 ENV MONGO_DB_USERNAME=admin \
     MONGO_DB_PWS=password
 #create home/app folder in the container
